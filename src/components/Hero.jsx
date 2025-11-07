@@ -23,7 +23,7 @@ export const Hero = () => {
 
         {/* CTA Button (Desktop) */}
         <button className="hidden md:block bg-[#16A085] hover:bg-[#1baf92] transition text-white px-4 py-2 sm:px-6 sm:py-2 rounded-full text-[13px] sm:text-[15px]">
-          Plagiarism Checker
+          <p style={{ fontFamily: "YourLocalFont" }}>Plagiarism Checker</p>
         </button>
 
         {/* Mobile Menu Button */}
@@ -59,25 +59,25 @@ export const Hero = () => {
           className="hidden lg:block absolute left-30 top-25 w-60 opacity-90 -z-10"
         />
         <div className="hidden lg:block absolute right-0 top-45 w-150 rounded-3xl overflow-hidden -z-10">
-  <img
-    src={hero2}
-    alt="hero-right"
-    className="w-full h-full object-cover opacity-90"
-  />
-</div>
+          <img
+            src={hero2}
+            alt="hero-right"
+            className="w-full h-full object-cover opacity-90"
+          />
+        </div>
 
-
-        <h1 style={{fontFamily:'YourLocalFont'}} className="text-7xl text-gray-900">
-          {/* Transforming Research Into <br />
-          <span className="block text-teal-600 md:text-gray-900 sm:text-teal-600 mt-2">Impactful Outcomes.</span> */}
-           <span className="relative inline-block">
-    <ExpressIco className="absolute -top-9 right-4  -translate-x-1/2 w-10 h-8" />
-    T
-  </span>
-  ransforming Research Into <br />
-  <span className="block text-teal-600 md:text-gray-900 sm:text-teal-600 mt-2">
-    Impactful Outcomes.
-  </span>
+        <h1
+          style={{ fontFamily: "YourLocalFont" }}
+          className="text-7xl text-gray-900"
+        >
+          <span className="relative inline-block">
+            <ExpressIco className="absolute -top-9 right-4  -translate-x-1/2 w-10 h-8" />
+            T
+          </span>
+          ransforming Research Into <br />
+          <span className="block text-teal-600 md:text-gray-900 sm:text-teal-600 mt-2">
+            Impactful Outcomes.
+          </span>
         </h1>
 
         <p className="text-gray-600 mt-6 sm:mt-8 mb-6 sm:mb-10 max-w-3xl text-sm sm:text-lg md:text-xl leading-relaxed">
@@ -88,7 +88,7 @@ export const Hero = () => {
         </p>
 
         <button className="mt-8 sm:mt-10 bg-[#16A085] hover:bg-[#1baf92] transition text-white px-8 py-3 sm:px-10 sm:py-3 rounded-full text-base sm:text-lg">
-          Explore Our Services
+          <p style={{ fontFamily: "YourLocalFont" }} >Explore Our Services</p>
         </button>
       </section>
     </div>
